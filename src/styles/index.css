@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card {
+  /* border: 5px dashed pink; */
+  /* border: 5px dotted pink; */
+  /* border: 5px double pink; */
+  width: 250px;
+  height: 105px;
+  padding: 40px 25px 30px 50px;
+  background-color: #7E37DA;
+  color: #ffffff;
+  border-radius: 10px;
+  list-style: none;
+  /* text-align: center; */
+}
+
+.card__span {
+  font-weight: bold;
+}
+
+.card__prop {
+  width: 325px;
+  /* padding: 0 35px; */
+  border-radius: 10px;
+}
+
+.ul__prop {
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+}
